@@ -1,0 +1,63 @@
+.sec-bg{
+    background-color: #0d81e3;
+    border-top: 2px solid #a9cfef;
+    border-bottom: 1px solid #a9cfef;
+}
+.titlebig{
+    font-size: 46px;
+    color: white;
+}
+.pd-5-per{
+    padding: 5.5%;
+}
+.p-big{
+    padding-top: 6%;
+    padding-left: 10%;
+    color: white;
+}
+.basicCard{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.basicImg{
+    height:90px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #F1F9FF;
+}
+#wrap { position: relative; }
+#wrap div { width: 400px;  margin: 20px;  }
+#wrap div:nth-child(even) { float: right; clear: right; }
+#wrap div:nth-child(odd) { float: left; clear: left; }
+
+.aboutQuotep {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+.aboutQuote{
+    margin: 0;
+   }
+   .aboutQuotep::before {
+    content: '\201C';
+}
+   .aboutQuote p::after {
+    content: '\201D';
+}
+ .quoteCont{
+    padding: 18%;
+    padding-top: 36%;
+ }
+.bgSec{
+    border: 1px solid #a9cfef;
+    background-color: #F1F9FF;
+}
+.btnCont{
+    padding: 9%;
+    padding-top: 13%;
+    padding-bottom: 10%;
+}

@@ -1,0 +1,129 @@
+.borderDiv{
+    border-top: 1px solid #a9cfef;
+    border-bottom: 1px solid #a9cfef;
+}
+.locationItems{
+    list-style-type: none;
+    margin: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+.locationItems li{
+    color: #007bff;
+    margin: 7px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.breadNav{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    width: 100%;
+
+}
+.breadNav .breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: .25rem;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+.breadNav .breadcrumb-item.active {
+    color: #0670cf;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+.locationLink {
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0px;
+}
+.mbb-0{
+    margin-bottom: 0px;
+}
+.locationImg{
+    background-color: #F1F9FF;
+    border: 2px solid #a9cfef;
+   height: 170px;
+   margin-bottom: 20px;
+}
+.ft-18{
+    font-size: 18px;
+}
+.breadcrumbsdet li, .breadcrumbsdet li a{
+    margin: 0px;
+    font-size: 12px;
+}
+.buildSec{
+    border: 1px solid #a9cfef;
+    background-color: #F1F9FF;
+    height: 250px;
+}
+.btndiv{
+    background-color: #0D81E3;
+    height: 80px;
+}
+.mtt-40{
+    margin-top: 40px;
+}
+.mtt-20{
+    margin-top: 20px;
+}
+.locImg{
+    height: 250px;
+    border: 1px solid #a9cfef;
+    background-color: #F1F9FF;
+}
+.socialDiv{
+    background-color: #0D81E3;
+    height: 50px;
+    padding: 12px;
+}
+.clr-white{
+    color: white;
+}
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+.loc-social{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.shopCards {
+    background: white;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 10px;
+    height: 250px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 90%;
+}
+.shopCards-img {
+    border-radius: 4px;
+    height: 130px;
+    background-color: #F1F9FF;
+    margin-bottom: 5px;
+}
+.shopCards p {
+    font-size: 12px;
+    line-height: 15px;
+}

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML, Meta Tags, Metadata"/>
+    <meta name="description" content="Learning about Meta Tags."/>
+    <meta name="author" content="IncredibleEdibles.com"/>
+    <title>Incredible Edible</title>
+    <link rel="shortcut icon" type="image/jpg" href="../../Assets/Images/favicon.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../Styles/home.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/life.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/modals.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./Assets/Js/navbar-animate.js"></script>
+    <script src="./Assets/Js/toogle-menu.js"></script>
+        <script src="./Assets/Js/filters-list.js"></script>
+    <script src="../Header/header.js" type="text/javascript" defer></script>
+    <script src="../Footer/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+         <!-- Your page's content -->
+            <div class='container-fluid'>
+               <!--First Div-->
+              <div class="mainBg">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="blogCont">
+                    <nav aria-label="breadcrumb" class="breadNav">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"> SHOP CBD </a></li>
+                        <li class="breadcrumb-item"><a href="#">PAIN MANAGEMENT </a></li>
+                        <li class="breadcrumb-item"><a href="#">BRANDS </a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> BLOG</li>
+                      </ol>
+                    </nav>
+                    <h1 class="mainColor"> H1 Title </h1>
+                    <p class="mainColor"> Short descriptive <br/> copy goes here </p>
+                  
+                   </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="topImgDiv">
+
+                    </div>
+                </div>
+              </div>
+              </div>
+              <!--Filter Div-->
+              <div class='filter-div'>
+                <div align="center">
+                  <span> <label data-filter="food"> Filter By </label></span>
+                  <button class="btn btn-default filter-button" data-filter="popular" onclick="change_popular()">Most Popular</button>
+                  <button class="btn btn-default filter-button active" data-filter="food" onclick="change_food()">Superfoods</button>
+                  <button class="btn btn-default filter-button" data-filter="cbd" onclick="change_cbd()">CBD</button>
+                  <button class="btn btn-default filter-button" data-filter="pain" onclick="change_pain()">Pain Management</button>
+                  <button class="btn btn-default filter-button" data-filter="beauty" onclick="change_beauty()">Beauty</button>
+                  <button class="btn btn-default filter-button" data-filter="energy" onclick="change_energy()">Energy & Focus</button>
+                  <button class="btn btn-default filter-button" data-filter="wellness" onclick="change_wellness()">Wellness</button>
+              </div>
+              </div>
+                <!--Third Div-->
+                <div class="Post">
+                    <div class="container">
+                      <h4 class="mainColor"> Featured Post </h4>
+                      <div class='row'>
+                          <div class="col-lg-8 col-md-8 col-sm-12  "> 
+                              <a href="blog.html">
+                                <div class="mainPost filter food">
+
+                                  <label class="post-tag clr-white"> <span id='catChange'> Superfoods  </span> <span class="vl-post">  </span> 08/18/21</label>
+                                  <h1 class="clr-white"> Post Headline <br/>
+                                    Goes Here </h1>
+                                </div>
+                              </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-12"> 
+                            <a href="blog.html">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> <span id='catsubChange'> Superfoods </span>  <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </a>
+                            <a href="blog.html">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> <span id='catsubChanged'> Superfoods </span> <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <!--Categories-->
+                <div class="Post">
+                     <!--Most Popular-->
+                    <div class="container">
+                      <h4 class="mainColor"> Most Popular </h4>
+                      <div class="container-scroll">
+                        <div class="carousel-scroll">
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="postCards">
+                            <label class="post-tag clr-blue"> Most Popular <span class="vl-post">  </span> 08/18/21</label>
+                            <h5 class="clr-blue"> Post Headline <br/>
+                              Goes Here </h5>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+    
+                    </div>
+                      <!-- Foods-->
+                      <div class="container">
+                        <h4 class="mainColor"> Superfoods </h4>
+                        <div class="container-scroll">
+                          <div class="carousel-scroll">
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="postCards">
+                              <label class="post-tag clr-blue"> Superfoods <span class="vl-post">  </span> 08/18/21</label>
+                              <h5 class="clr-blue"> Post Headline <br/>
+                                Goes Here </h5>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+      
+                      </div>
+
+                        <!-- CBD -->
+                        <div class="container">
+                          <h4 class="mainColor"> CBD </h4>
+                          <div class="container-scroll">
+                            <div class="carousel-scroll">
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue">CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="postCards">
+                                <label class="post-tag clr-blue"> CBD <span class="vl-post">  </span> 08/18/21</label>
+                                <h5 class="clr-blue"> Post Headline <br/>
+                                  Goes Here </h5>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+        
+                        </div>
+                        <!-- Pain Management-->
+                          <div class="container">
+                            <h4 class="mainColor"> Pain Managment </h4>
+                            <div class="container-scroll">
+                              <div class="carousel-scroll">
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Pain Managment <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+          
+                          </div>
+                          <!-- Beauty-->
+                            <div class="container">
+                            <h4 class="mainColor"> Beauty </h4>
+                            <div class="container-scroll">
+                              <div class="carousel-scroll">
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Beauty <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+          
+                          </div>
+                          <!-- Energy & Focus -->
+                          <div class="container">
+                            <h4 class="mainColor"> Energy & Focus </h4>
+                            <div class="container-scroll">
+                              <div class="carousel-scroll">
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Energy & Focus <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+          
+                          </div>
+                          <!--Wellness-->
+
+                          <div class="container">
+                            <h4 class="mainColor"> Wellness </h4>
+                            <div class="container-scroll">
+                              <div class="carousel-scroll">
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue"> Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="postCards">
+                                  <label class="post-tag clr-blue">Wellness <span class="vl-post">  </span> 08/18/21</label>
+                                  <h5 class="clr-blue"> Post Headline <br/>
+                                    Goes Here </h5>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+          
+                          </div>
+   
+                  </div>
+                </div>
+                <footer-component/>
+            </div>
+    </main>
+        </body>
+        </html>
+        

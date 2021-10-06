@@ -1,0 +1,70 @@
+.SlideinModals .modal-header{
+    border-bottom: 1px solid transparent;
+    padding: 0px;
+    padding-right: 5px;
+}
+.menu-items{
+    display: block;
+    font-size: 18px;
+    color: #3081b3;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.menu-items:hover{
+    text-decoration: none;
+}
+.sub-items{
+    margin-left: 50px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #3081b3;
+}
+.sub-items:hover, .sub-items:hover{
+    font-weight: 550;
+    text-decoration: none;
+}
+.collapse.show {
+    display: block;
+    background: white;
+    min-width: 280px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #efefef;
+}
+.sub-collapse{
+    margin-left: 30px;
+}
+.sub-childs{
+    display: block;
+    font-size: 14px;
+    color: #559ecc;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.featured-Div{
+    border-left: 2px solid #a9cfef;
+}
+.featured-div{
+    height: 165px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0px 10px 0px;
+    background-color: #559ecc;
+}
+.sub-childs:focus{
+    font-weight: 550;
+    font-size: 13px;
+    text-decoration: none;
+    color: #006cb1;;
+}
+.sub-childs:hover{
+    text-decoration: none;
+}
+@media(min-width:991px){
+    .wide-modal{
+        min-width: 600px;
+    }
+}
